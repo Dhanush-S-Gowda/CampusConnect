@@ -1,69 +1,82 @@
-# Welcome to your Lovable project
+# CampusConnect - Bossy
 
-## Project info
+## Project Overview
+CampusConnect is a platform designed to enhance campus life by connecting students, clubs, and opportunities. It provides a centralized hub for managing events, portfolios, projects, and more, fostering collaboration and engagement within the campus community.
 
-**URL**: https://lovable.dev/projects/8dea7851-2062-407d-8323-57cb8c20fc0e
+## Key Features
 
-## How can I edit this code?
+### 1. User Management
+- **Admin Dashboard**: Manage users, approve pending requests, and view audit logs.
+- **Bulk Upload**: Add multiple users at once for streamlined onboarding.
 
-There are several ways of editing your application.
+### 2. Authentication
+- **Sign-Up and Login**: Secure authentication with role-based access control.
+- **Auth Guard**: Protect routes and ensure only authorized users can access specific pages.
 
-**Use Lovable**
+### 3. Clubs and Events
+- **Club Management**: View and manage club details and activities.
+- **Event Management**: Create, edit, and register for events with detailed event pages.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8dea7851-2062-407d-8323-57cb8c20fc0e) and start prompting.
+### 4. Live Feed
+- **Post Creation**: Share updates, announcements, and media.
+- **Post List**: View and interact with posts in a dynamic feed.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 5. Opportunities
+- **Opportunity Listings**: Explore and apply for various opportunities.
+- **Opportunity Details**: Detailed view of each opportunity.
 
-**Use your preferred IDE**
+### 6. Portfolios
+- **Portfolio Management**: Showcase projects, experiences, and skills.
+- **Edit and Upload**: Easily update and upload portfolio content.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 7. Projects
+- **Project Listings**: Discover and collaborate on campus projects.
+- **Team Management**: Manage project teams and roles.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 8. Tutorials
+- **Tutorial Listings**: Access educational resources and guides.
+- **Tutorial Details**: Detailed view of each tutorial.
 
-Follow these steps:
+### 9. UI Components
+- **Reusable Components**: Accordion, buttons, modals, and more for a consistent user experience.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 10. Chatbot
+- **Interactive Assistance**: A chatbot to assist users with navigation and queries.
+- **Real-Time Responses**: Provides instant answers to frequently asked questions and guides users through the platform.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Technologies Used
+- **Vite**: Fast build tool for modern web projects.
+- **TypeScript**: Strongly typed programming language for better code quality.
+- **React**: Component-based UI library.
+- **shadcn-ui**: Pre-built UI components.
+- **Tailwind CSS**: Utility-first CSS framework.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## How to Run the Project
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Clone the repository:
+   ```sh
+   git clone <YOUR_GIT_URL>
+   cd <YOUR_PROJECT_NAME>
+   ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-**Use GitHub Codespaces**
+## Deployment
+The project can be deployed using platforms like Vercel or Netlify. For quick deployment, use the provided Vercel configuration file.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contribution
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-## What technologies are used for this project?
+## License
+This project is licensed under the MIT License.
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8dea7851-2062-407d-8323-57cb8c20fc0e) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Hosted Application
+The CampusConnect platform is live and accessible at [CampusConnect](https://campusconnect-flame.vercel.app/).
