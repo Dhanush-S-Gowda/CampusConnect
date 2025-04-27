@@ -1,4 +1,4 @@
-# CampusConnect - Bossy
+# CampusConnect
 
 ## Project Overview
 CampusConnect is a platform designed to enhance campus life by connecting students, clubs, and opportunities. It provides a centralized hub for managing events, portfolios, projects, and more, fostering collaboration and engagement within the campus community.
