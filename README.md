@@ -51,24 +51,6 @@ CampusConnect is a platform designed to enhance campus life by connecting studen
 - **shadcn-ui**: Pre-built UI components.
 - **Tailwind CSS**: Utility-first CSS framework.
 
-## How to Run the Project
-
-1. Clone the repository:
-   ```sh
-   git clone <YOUR_GIT_URL>
-   cd <YOUR_PROJECT_NAME>
-   ```
-
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-
-3. Start the development server:
-   ```sh
-   npm run dev
-   ```
-
 ## Deployment
 The project can be deployed using platforms like Vercel or Netlify. For quick deployment, use the provided Vercel configuration file.
 
